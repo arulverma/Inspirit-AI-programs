@@ -1,3 +1,7 @@
+# This was my first experience programming a linear regression at the beginning of the AI course. 
+# This code builds a linear regression model using Facebook data and estimates the amount of likes each type of post would get depending on various factors and info about the post itself
+# This code is obviously not robust but it served as a healthy introduction into AI
+
 import pandas as pd 
 import os
 import gdown
