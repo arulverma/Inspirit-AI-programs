@@ -1,3 +1,6 @@
+# This was the second type of regression I interacted with after learning about linear regressions
+# This code takes data about heart conditions and uses the data to estimate if the target has heart disease
+
 import pandas as pd 
 import os
 import gdown
