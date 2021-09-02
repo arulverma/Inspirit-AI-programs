@@ -1,3 +1,6 @@
+# This code takes prescraped Yelp reviews and tokenizes the most common words of the reviews. It then checks the sentiment associated with each of the words and estimates the rating
+# associted with each of the reviews based on their word choice and the sentiment associated with the word choice.Then the score is compared with the actual star review and accuracy is estimated based on degree of correctness
+
 import pandas as pd   # Great for tables (google spreadsheets, microsoft excel, csv). 
 import numpy as np
 import matplotlib.pyplot as plt
