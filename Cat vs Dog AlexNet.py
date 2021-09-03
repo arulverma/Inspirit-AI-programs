@@ -1,5 +1,6 @@
+#The code looks to distinguish between cats and dogs using the AlexNet model set up
+#This model does not work at high percentage of correctness over 20 epochs due to underfitting as AlexNet is set up to work over larger datasets
 
-#@title Run this to load some packages and data! { display-mode: "form" }
 from sklearn.neural_network import MLPClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn import model_selection
