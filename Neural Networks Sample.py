@@ -1,3 +1,6 @@
+#Classic use of Neural Networks to identify the different types of iris flowers using information like sepal width
+#Created using provided skeleton
+
 from sklearn.neural_network import MLPClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn import model_selection
