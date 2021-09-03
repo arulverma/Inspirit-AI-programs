@@ -1,4 +1,5 @@
-#@title Run this to download data and prepare our environment! { display-mode: "form" }
+#The code takes car driving video (saved locally) and looks at objects within the video and identifies the various objects in the video and the probability that they are significant to the self driving car
+#This implementation uses DarkNet pretrained model to run
 
 import matplotlib.pyplot as plt
 import os
